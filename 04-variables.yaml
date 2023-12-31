@@ -1,7 +1,7 @@
 - name: variables from PLAY level
   hosts: localhost
   vars:
-    Course: "DevOps321"
+    Course: "DevOps"
     Trainer: "sai"
     Duration: "110hrs"
   tasks:
