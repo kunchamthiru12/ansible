@@ -2,12 +2,11 @@
   hosts: localhost
   vars:
     Course: "DevOps"
-    Trainer: "sai"
-    Duration: "110hrs"
+    Trainer: "Sivakumar"
+    Duration: "110HRS"
   tasks:
   - name: check variables
     vars: #task level
-      course: "DevOps with AWS"
+      Course: "DevOps with AWS"
     ansible.builtin.debug:
-      msg: "HI, Iam learning {{Course}}, Trainer is {{Trainer}}, Duration is {{Duration}}"
-      
+      msg: "Hi, I am learning {{Course}}, Trainer is {{Trainer}}, Duration is {{Duration}}"
