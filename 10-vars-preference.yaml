@@ -7,15 +7,15 @@
     prompt: please enter your name
     private: false #user can see what there are entering
   - name: WISHES
-    prompt: please entervyour wishes
+    prompt: please enter your wishes
     private: false #user can't see what they are entering
   vars:
-    PERSON: "siva from PLAY"
+    PERSON: "sai from PLAY"
     WISHES: "Morning from PLAY"
   tasks:
   - name: check variables
     vars:
-      PERSON: "Siva from TASK"
+      PERSON: "Sai from TASK"
       WISHES: "Morning from TASK"
     ansible.builtin.debug:
       msg: "Hello {{PERSON}}, Good {{WISHES}}"  
